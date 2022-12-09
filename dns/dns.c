@@ -1,7 +1,6 @@
 // +build ignore
 
 // SPDX-License-Identifier: GPL-2.0
-/* Copyright (c) 2021 The Inspektor Gadget authors */
 
 #include <linux/bpf.h>
 #include <linux/if_ether.h>

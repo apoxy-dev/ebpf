@@ -1,3 +1,5 @@
+// package dns is based on Inspektor Gadget's DNS code available at
+// https://github.com/inspektor-gadget/inspektor-gadget/tree/bc525a2827db20a435f9f6d6727a76d5d5c97f5a/pkg/gadgets/trace/dns/tracer
 package dns
 
 import (
