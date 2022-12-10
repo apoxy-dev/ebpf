@@ -60,7 +60,7 @@ struct dnshdr {
 	__u16 arcount; // number of additional records
 };
 
-SEC("socket1")
+SEC("socket")
 int ig_trace_dns(struct __sk_buff *skb)
 {
 	// Skip non-IP packets
